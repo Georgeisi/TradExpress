@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  font-family: Roboto;
+}
+
+.product {
+  list-style-type: none;
+}
+.bg-gray {
+  background-color: #ede9ef;
+  
+}
+ul {
+  list-style-type: none;
+}
+.text-al {
+  text-align: start;
+  align-items: center;
+}
+ul>h3{
+  font-size: medium;
+}
+@media (min-width: 992px) {
+  .displaydiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}

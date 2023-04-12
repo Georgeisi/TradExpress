@@ -1,0 +1,21 @@
+.text-color{
+    color: #26093A;
+    ;
+}
+.buysell{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}@media(min-width:992px){
+    .buysell{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        gap: 250px;
+    }
+    .buysell2{
+        flex-direction: row;
+    }
+}
+
+   

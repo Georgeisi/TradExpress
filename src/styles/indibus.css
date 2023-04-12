@@ -1,0 +1,67 @@
+/* .indibus{
+    background-color:  #E4E4E4;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.active{
+    background-color: white;
+}
+.bg-gray{
+    background-color: #EEEDEE;
+    
+}
+.contain1{
+    margin-top: 50px;
+}
+a{
+    text-decoration: none;
+    color: purple;
+}
+.signup{
+    padding: 10px;
+    width: 75%;
+    background-color: purple;
+    color: #ffff;
+} */
+
+.btn1{
+    background-color: #E4E4E4;
+    border-radius: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 4px;
+    margin: 20px;
+    width: 100%;
+    margin: 20px auto;
+}
+.btn1 button{
+    background-color: transparent;
+    border-radius: 40px;
+    color: #000000;
+    border: none;
+    padding: 4px;
+    transition:0.4s ease-in-out;
+}
+.btn1 button.active{
+    background-color: white;
+}
+/* 
+.indi-bus {
+    background-color: red;
+
+} */
+
+.indi-bus-inner {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 3px;
+}
+input::placeholder{
+    color: #000000;
+}
+.bgcolor{
+    background-color:purple;
+}

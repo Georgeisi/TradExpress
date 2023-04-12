@@ -1,0 +1,42 @@
+.cent{
+    right: 50px;
+    top: 50px;
+}
+.bg-quotes{
+    top: 30px;
+    left: 30px;
+    /* background-color: black; */
+}
+.roundpic{
+    /* padding-right:100px ; */
+    left :20px;
+    bottom: -80px;
+
+}
+.extrawidth{
+    width: 300px;
+
+}
+@media (min-width:768px){
+    
+}
+@media(min-width:992px){
+    .extrawidth{
+        width: 300px;
+        left: 500px;
+    }
+    .bigdiv{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .cent{
+        z-index: 3;
+        left: 0;
+
+    }
+    .extra{
+        top: 20px;
+    }
+}
+

@@ -1,0 +1,32 @@
+.text-purple{
+  color: #7C20BE;
+  
+}
+.bg-purple{
+  background-color: #7C20BE;
+  height: 70vh;
+}
+.header1{
+  padding-top: 100px;
+}
+.psimg{
+  left: 40px;
+}
+@media (min-width:992px){
+  .mediaDiv{
+    width: 100vh;
+  }
+  .ring{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    /* left: 140px; */
+  }
+  .psimg{
+    position: absolute;
+    left: 300px;
+  }
+  .padding1{
+    padding-left:50px ;
+  }
+}

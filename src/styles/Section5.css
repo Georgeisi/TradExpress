@@ -1,0 +1,24 @@
+.bg-gray{
+    background-color: #EDE9EF;
+    
+}
+.smalltext{
+    font-size: small;
+    color:  #292929;
+    ;
+}
+.semismall{
+    font-size: medium;
+}
+.bg-purple{
+    background-color:  #7C20BF;
+    ;
+}
+.button1{
+    background-color: #7C20BF;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    
+}

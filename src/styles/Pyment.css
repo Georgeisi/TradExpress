@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  font-family: Roboto;
+}
+
+.container1 {
+  width: 90%;
+  border: 1px solid black;
+  background-color: white;
+  font-size: small;
+}
+.text-h2 {
+  color: #26093a;
+}
+.text-purple {
+  color: #7c20be;
+  border: 1px solid #7c20be;
+}
+@media (min-width: 992px) {
+  .visible {
+    /* width: 33.3%; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

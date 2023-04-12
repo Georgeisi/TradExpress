@@ -1,0 +1,30 @@
+indi{
+    background-color: #EEEDEE;
+    width: 90vw;
+}
+.btn22{
+    border-radius:40px;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* padding: 5px; */
+    margin: 0 30px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+}
+.btn22 button{
+    background-color: transparent;
+    border-radius: 40px;
+    color: black;
+    border: none;
+    transition: 0.4s ease-in-out;
+}
+.btn22 button.active{
+    background-color: white;
+}
+@media (min-width:992px){
+    .indi{
+        background-color: #EEEDEE;
+        width: 40vw;
+    }
+}
